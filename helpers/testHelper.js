@@ -21,7 +21,10 @@ function sleep(ms) {
 }
 
 const navigateToWebsite = async () => {
-  driver = await new Builder().forBrowser('chrome').build()
+  driver = new Builder()
+    .forBrowser('chrome')
+    .setChromeOptions(new chrome.Options().addArguments('--headless', '--disable-dev-shm-usage', '--no-sandbox', 'headless'))
+    .build();
   await driver.get("https://www.nuffieldhealth.com/")
   await driver.manage().window().setRect(1200, 973)
   await driver.manage().window().setRect(1200, 973)
