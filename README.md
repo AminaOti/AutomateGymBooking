@@ -14,7 +14,8 @@ Note, the env file is used send the booking information such as user details, da
 
 # How to run the code locally:
 
-1. `$ npm install `
-2. `$ cp .env.local .env`
-3. populate the env file
-4. `$ npm test `
+1. `$ git clone https://github.com/AminaOti/AutomateGymBooking.git`
+2. `$ npm install `
+3. `$ cp .env.local .env`
+4. populate the env file
+5. `$ npm test `
