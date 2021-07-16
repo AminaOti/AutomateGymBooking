@@ -1,4 +1,4 @@
-# AutomateGymBooking
+# Automate Gym Booking
 
 It's the pandemic, gym classes have just re-started and due to social distancing the class capacity at my tinny gym is VERY limited. What does this mean? It means that the gym class booking race has just got FAST (like really FAST) and I don't want to stay up until 00:00 staring at my phone like a socially-depraved mad women waiting for a booking to open.
 
