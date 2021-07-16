@@ -26,29 +26,20 @@ describe('book courts', () => {
     await loginToAccount()
   })
 
-  it('must navigate to Book Class Page ', async () => {
+  it('navigate to Book Class Page ', async () => {
     await navigateToBookClassPage()
   })
 
-  it('must select day: ', async () => {
+  it('select day: ', async () => {
     await selectDay()
   })
 
-  it('must select activity', async () => {
+  it('select activity', async () => {
     await selectActivity
   })
 
-  it('must closes browser', async () => {
+  it('closes browser', async () => {
     driver.quit()
   })
-
-  //TO DO: 
-  // 1 - write JS to book class (done)
-  // 2 - external input variables: ui_email, ui_passowrd and some of the booking const 
-  //     (maybe make a file env file with things like: day, time, start_date, end_date, might need to make objects file)
-  // 3 - Jenkins
-  // or 1 - move to cucumber
-
-  //npm test
 
 });
