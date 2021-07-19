@@ -6,6 +6,7 @@ const { navigateToWebsite,
   selectDay,
   selectActivity, } = require("../helpers/testHelper");
 
+describe('book courts', () => {
   it('navigate to ' + process.env.WEBSITE + 'and accept cookies', async () => {
     await navigateToWebsite()
     await acceptCookies()

@@ -36,6 +36,7 @@ const acceptCookies = async () => {
   await driver.findElement(By.id(acceptCookiesButton)).click()
 }
 
+
 const loginToAccount = async () => {
   await driver.findElement(By.css(loginButton)).click()
   await driver.wait(until.elementLocated(By.id(emailField)), defaultWait);
@@ -59,6 +60,8 @@ const selectDay = async () => {
   await sleep(1000);
   await driver.executeScript("window.scrollTo(0,500)")
   await driver.wait(until.elementLocated(By.css(day_selector[day_of_booking])), defaultWait);
+  await driver.findElement(By.css(day_selector[day_of_booking])).click();
+  await sleep(5000);
 }
 
 const selectActivity = async () => {
