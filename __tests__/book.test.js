@@ -11,7 +11,7 @@ const { navigateToWebsite,
     await acceptCookies()
   })
 
-  it('must login to account ' + process.env.EMAIL, async () => {
+  it('login to account ' + process.env.EMAIL, async () => {
     await loginToAccount()
   })
 
