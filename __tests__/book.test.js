@@ -24,7 +24,7 @@ const { navigateToWebsite,
   })
 
   it('select activity', async () => {
-    await selectActivity
+    await selectActivity()
   })
 
   it('closes browser', async () => {
