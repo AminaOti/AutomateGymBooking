@@ -18,7 +18,7 @@
   "author": "Dragomir Enachi",
   "license": "ISC",
   "devDependencies": {
-    "chromedriver": "^90.0.1",
+    "chromedriver": "^92.0.4515.107",
     "delay": "^5.0.0",
     "jest": "^27.0.1",
     "selenium-webdriver": "^4.0.0-beta.4"
