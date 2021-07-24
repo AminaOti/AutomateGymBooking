@@ -12,7 +12,7 @@ describe('book gym slot', () => {
     await acceptCookies()
   })
 
-  it('login to account ' + process.env.EMAIL, async () => {
+  it('login to account ' + process.env.USER_EMAIL, async () => {
     await loginToAccount()
   })
 
