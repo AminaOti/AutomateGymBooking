@@ -18,12 +18,12 @@
   "author": "Dragomir Enachi",
   "license": "ISC",
   "devDependencies": {
-    "chromedriver": "^90.0.1",
     "delay": "^5.0.0",
     "jest": "^27.0.1",
     "selenium-webdriver": "^4.0.0-beta.4"
   },
   "dependencies": {
+    "chromedriver": "^92.0.0",
     "dotenv": "^10.0.0"
   }
 }
