@@ -38,7 +38,7 @@ const acceptCookies = async () => {
 
 
 const loginToAccount = async () => {
-  console.log(un_password)
+  console.log(ui_passowrd)
   await driver.findElement(By.css(loginButton)).click()
   await driver.wait(until.elementLocated(By.id(emailField)), defaultWait);
   await driver.findElement(By.id(emailField)).click()
