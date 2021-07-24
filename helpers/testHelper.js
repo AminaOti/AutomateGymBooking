@@ -70,7 +70,6 @@ const selectActivity = async () => {
   await driver.wait(until.elementLocated(By.css(activity_selector[activity])), defaultWait);
   await driver.findElement(By.css(activity_selector[activity])).click()
   await driver.navigate().refresh();
-  console.log(" SELECTING ACTIVITY: " + activity_selector[activity] + " " + process.env.ACTIVITY)
 }
 
 
