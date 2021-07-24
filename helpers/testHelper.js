@@ -67,9 +67,10 @@ const selectDay = async () => {
 const selectActivity = async () => {
   await sleep(1000)
   await driver.executeScript("window.scrollTo(0,1000)")
-  await driver.wait(until.elementLocated(By.css(activity_selector[activity])), defaultWait);
-  await driver.findElement(By.css(activity_selector[activity])).click()
-  await driver.navigate().refresh();
+  // await driver.wait(until.elementLocated(By.css(activity_selector[activity])), defaultWait);
+  //  await driver.findElement(By.css(activity_selector[activity])).click()
+  //  await driver.navigate().refresh();
+  console.log(" SELECTING ACTIVITY: " + activity_selector[activity])
 }
 
 
