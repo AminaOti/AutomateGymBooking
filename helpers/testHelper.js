@@ -23,7 +23,7 @@ function sleep(ms) {
 const navigateToWebsite = async () => {
   driver = new Builder()
     .forBrowser('chrome')
-    .setChromeOptions(new chrome.Options().addArguments('--headless', '--disable-dev-shm-usage', '--no-sandbox', 'headless'))
+    .setChromeOptions(new chrome.Options())//.addArguments('--headless', '--disable-dev-shm-usage', '--no-sandbox', 'headless'))
     .build();
   await driver.get("https://www.nuffieldhealth.com/")
   await driver.manage().window().setRect(1200, 973)
@@ -38,6 +38,7 @@ const acceptCookies = async () => {
 
 
 const loginToAccount = async () => {
+  console.log(un_password)
   await driver.findElement(By.css(loginButton)).click()
   await driver.wait(until.elementLocated(By.id(emailField)), defaultWait);
   await driver.findElement(By.id(emailField)).click()
