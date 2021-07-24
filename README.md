@@ -10,7 +10,10 @@ Feel free to give my code a look and let me know if it has encouraged you to aut
 
 The code in this repository runs a Selenium E2E test which simulates the user flow of making a gym booking. A Jenkins job is then run on this repository every Monday morning at 00:00 
 
-Note, an env file is used to send booking information such as user details, day of booking, activity, ect. from the Jenkins job to the env file.
+Note, an env file is used to send booking information such as user details, day of booking, activity, ect. from the Jenkins job to the repositry.
+
+## Code walk through
+The __ tests__/book.test.js is the main file and runs through the steps of booking a gym slot using functions in helpers/testHelp.js
 
 # How to run the code locally:
 
