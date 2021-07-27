@@ -6,7 +6,7 @@ Like a damsel in distress I needed something to save me- I needed Automation. Th
 
 Feel free to give my code a look and let me know if it has encouraged you to automate something. Also, a special thank you Dragomir Enachi for inspiring me with his project:_https://github.ibm.com/Dragomir-Enachi/lta-tennis-court-booking_
 
-contact me on: aminaoti@outlook.com
+_contact me on: aminaoti@outlook.com_
 
 # How it works:
 
