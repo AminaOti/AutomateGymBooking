@@ -1,6 +1,6 @@
 # Automate Gym Booking
 
-It's the pandemic, gym classes have just re-started and due to social distancing the class capacity at my tiny gym is VERY limited. What does this mean? It means that the gym class booking race has just got FAST (like really FAST) and I don't want to stay up until 00:00 staring at my phone like a socially-deprived mad women waiting for a booking to open.
+It's the pandemic, gym classes have just re-started and due to social distancing the class capacity at my tiny gym is VERY limited. What does this mean? It means that the gym class booking race has just got FAST (like really FAST) and I don't want to stay up until 00:00 staring at my phone like a socially-deprived mad woman waiting for a booking to open.
 
 Like a damsel in distress I needed something to save me- I needed Automation. Thankfully, to the rescue came this Selenium project which books my gym slot at the moment the clock strikes 00:00 (yes Cinderella you will go to the ball  *** cough ***  gym). Praise the Lord for automation! (and pray it doesn't take my job).
 
