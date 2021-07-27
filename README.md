@@ -6,6 +6,8 @@ Like a damsel in distress I needed something to save me- I needed Automation. Th
 
 Feel free to give my code a look and let me know if it has encouraged you to automate something. Also, a special thank you Dragomir Enachi for inspiring me with his project:_https://github.ibm.com/Dragomir-Enachi/lta-tennis-court-booking_
 
+email: aminaoti@outlook.com
+
 # How it works:
 
 The code in this repository runs a Selenium E2E test which simulates the user flow of making a gym booking. A Jenkins job is then run on this repository every Monday morning at 00:00 
