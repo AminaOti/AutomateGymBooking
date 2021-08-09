@@ -65,7 +65,7 @@ const selectDay = async () => {
 }
 
 const selectActivity = async () => {
-  await sleep(1000) // I know that sleeps() are the an automation sin but this is a hack project please excuse me 🙏
+  await sleep(1000) // I know that sleeps() are an automation sin but this is a hack project please excuse me 🙏
   await driver.executeScript("window.scrollTo(0,1000)")
   await driver.wait(until.elementLocated(By.css(activity_selector[activity])), defaultWait);
   await driver.findElement(By.css(activity_selector[activity])).click()
