@@ -57,15 +57,15 @@ const navigateToBookClassPage = async () => {
 }
 
 const selectDay = async () => {
-  await sleep(1000);
+  await sleep(1000); // I know that sleeps() are an automation sin but this is a hack project please excuse me 🙏
   await driver.executeScript("window.scrollTo(0,500)")
   await driver.wait(until.elementLocated(By.css(day_selector[day_of_booking])), defaultWait);
   await driver.findElement(By.css(day_selector[day_of_booking])).click();
-  await sleep(5000);
+  await sleep(5000); // I know that sleeps() are the an automation sin but this is a hack project please excuse me 🙏
 }
 
 const selectActivity = async () => {
-  await sleep(1000)
+  await sleep(1000) // I know that sleeps() are the an automation sin but this is a hack project please excuse me 🙏
   await driver.executeScript("window.scrollTo(0,1000)")
   await driver.wait(until.elementLocated(By.css(activity_selector[activity])), defaultWait);
   await driver.findElement(By.css(activity_selector[activity])).click()
