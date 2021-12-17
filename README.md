@@ -10,9 +10,8 @@ _contact me on: amina.oti@ibm.com_
 
 # How it works:
 
-The code in this repository runs a Selenium E2E test which simulates the user flow of making a gym booking. A Jenkins job is then run on this repository every Monday morning at 00:00 
+The code in this repository runs a Selenium E2E test which simulates the user flow of making a gym booking. A Jenkins job is then run on this repository every Monday morning at 00:00. Booking information such as user details, day of booking, activity, ect. from the Jenkins job to the repositry can be configured in the env file
 
-Note, an env file is used to send booking information such as user details, day of booking, activity, ect. from the Jenkins job to the repositry.
 ### Code walk through
 The main file: __ tests__/book.test.js runs through the steps of booking a gym slot _(e.g, step 1: go to the website -> step 2: login -> step 3: book a class)_ using functions from: helpers/testHelp.js
 
