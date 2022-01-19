@@ -4,7 +4,7 @@ It's the pandemic, gym classes have just re-started and due to social distancing
 
 Like a damsel in distress I needed something to save me- I needed Automation. Thankfully, to the rescue came this Selenium project which books my gym slot at the moment the clock strikes 00:00 (yes Cinderella you will go to the ball  *** cough ***  gym). Praise the Lord for automation! (and pray it doesn't take my job).
 
-Please give my code a look and let me know if it has encouraged you to automate something. Also, a special thank you Dragomir Enachi for inspiring me with his project:_https://github.ibm.com/Dragomir-Enachi/lta-tennis-court-booking_
+Please give my code a look and let me know if it has encouraged you to automate something. Also, a special thank you to Dragomir Enachi for inspiring me with his project:_https://github.ibm.com/Dragomir-Enachi/lta-tennis-court-booking_
 
 _contact me on: amina.oti@ibm.com_
 
